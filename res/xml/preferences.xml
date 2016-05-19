@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+  
+    <PreferenceCategory android:title="Localization Settings" android:key="prefcat" android:summary="Localization Settings">
+        
+      <CheckBoxPreference android:key="use_rss" android:title="Use RSS values" android:summary="If checked RSS values are used for localization, otherwise localization is based on visibility." android:defaultValue="true" />
+  
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="WiFi Scan Settings" android:key="prefcat" android:summary="WiFi Scan Settings">
+       
+       <EditTextPreference android:key="online_wifi_samples_number" android:title="Number of online WiFi Samples" android:defaultValue="1" android:numeric="integer" android:summary="Number of online WiFi samples for each RP."/> 
+   
+       <EditTextPreference android:key="offline_wifi_samples_number" android:title="Number of offline WiFi Samples" android:defaultValue="100" android:numeric="integer" android:summary="Number of offline WiFi samples for each RP."/>   
+
+    </PreferenceCategory>
+    
+    
+     <PreferenceCategory android:title="Server Settings" android:key="prefcat" android:summary="Server Settings">
+       
+         <CheckBoxPreference android:key="use_server" android:title="Use server for localization" android:summary="If checked this app uses server to localize the phone." android:defaultValue="false" />
+  
+       <EditTextPreference android:key="server_address" android:title="Server Address" android:defaultValue="https://pilot-server.appspot.com" android:summary="URL of backend server"/> 
+   
+         <EditTextPreference android:key="api_key" android:title="API Key" android:defaultValue="5ab9535ff010efcabb636b5dd6103fadb2bed9eb" android:summary="API key for server"/> 
+   
+           <EditTextPreference android:key="user_name" android:title="User name" android:defaultValue="kamran" android:summary="User name for server"/> 
+   
+             <EditTextPreference android:key="user_id" android:title="User ID" android:numeric="integer" android:defaultValue="10"  android:summary="User ID for server"/> 
+   
+    </PreferenceCategory>
+   
+</PreferenceScreen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+	<string-array name="map_click_actions">
+        <item name="addgpsrp">Not impelemented</item>
+        <item name="addrp">Add station here</item>
+        <item name="getrp">Get all stations</item>
+    </string-array>
+    
+    
+	<string-array name="rp_outdoor_click_actions">
+        <item name="collectrss">Collect RSS</item>
+        <item name="removerss">Remove RSS</item>
+        <item name="editinfo">Edit Information</item>
+       <item name="removerp">Remove station</item>
+       <item name="pushserver">Push to Server</item>
+      <item name="removerpserver">Remove station from server</item>
+       <item name="connect">Connect to another station</item>
+       <item name="destination">This is my destination!</item>
+    </string-array>
+	
+	
+	<string-array name="rp_types">
+        <item>Underground</item>
+        <item>Above ground</item>
+        <item>None</item>
+    </string-array>
+    
+	<string-array name="line_colors">
+        <item>Black</item>
+        <item>Dark Gray</item>
+        <item>Gray</item>
+        <item>Light Gray</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Subway Navigation</string>       
+    <string name="menu_start">Start</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_removecommonaps">Remove common APs of RPs</string>
+    <string name="menu_switchmap">Switch Satellite/Normal Map</string>
+    <string name="menu_import_text">Import as text from SD card</string>
+    <string name="menu_export_text">Export as text to SD card</string>
+    <string name="menu_import_bin">Import as binray from SD card</string>
+    <string name="menu_export_bin">Export as binray to SD card</string>
+    <string name="action_settings">Settings</string>
+	<string name="dialog_title">Choose an action</string>
+	<string name="rp_name">Name</string>
+	<string name="rp_description">Description</string>
+	
+</resources>

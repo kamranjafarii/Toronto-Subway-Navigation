@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wifilocalizer.subwaynavigation.MainActivity" >
+
+        <item
+        android:id="@+id/menu_start"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_start"/>
+    
+        <item
+        android:id="@+id/menu_stop"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_stop"/>
+        
+         <item
+        android:id="@+id/menu_removecommonaps"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_removecommonaps"/>
+         
+         <item
+        android:id="@+id/menu_switchmap"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_switchmap"/>
+        
+        <item
+        android:id="@+id/menu_import_text"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_import_text"/>
+        
+        <item
+        android:id="@+id/menu_export_text"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_export_text"/>
+    
+       <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+           
+
+</menu>
